@@ -14,14 +14,14 @@ public class testSelectionSort {
     }
 
     public void testPositive() {
-        int[] arr = {8, 9, 7, 10, 2};
+        int[] arr = {5, 9, 7, 10, 2};
         int[] Sortedarr = {2, 7, 8, 9, 10};
         SelectionSort sorter = new SelectionSort();
         assertArrayEquals(Sortedarr, sorter.basicSelectionSort(arr));
     }
 
     public void testNegative() {
-        int[] arr = {-3, -1, -4, -5, -2};
+        int[] arr = {-6, -1, -4, -5, -2};
         int[] Sortedarr = {-5, -4, -3, -2, -1};
         SelectionSort sorter = new SelectionSort();
         assertArrayEquals(Sortedarr, sorter.basicSelectionSort(arr));
