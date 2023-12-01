@@ -28,14 +28,14 @@ public class testSelectionSort {
     }
 
     public void testMixed() {
-        int[] arr = {-2, 3, 0, -1, 5};
+        int[] arr = {-4, 3, 0, -1, 5};
         int[] Sortedarr = {-2, -1, 0, 3, 5};
         SelectionSort sorter = new SelectionSort();
         assertArrayEquals(Sortedarr, sorter.basicSelectionSort(arr));
     }
 
     public void testDuplicates() {
-        int[] arr = {2, 3, 2, -1, -1};
+        int[] arr = {3, 3, 2, -1, -1};
         int[] Sortedarr = {-1, -1, 2, 2, 3};
         SelectionSort sorter = new SelectionSort();
         assertArrayEquals(Sortedarr, sorter.basicSelectionSort(arr));
